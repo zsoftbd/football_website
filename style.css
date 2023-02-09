@@ -1,0 +1,184 @@
+    /*----------------------------- 
+nav ber 
+-----------------------*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    /* google font */
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    nav {
+        background-color: #2D25A0;
+        height: 100vh;
+    }
+    
+    .manu_bar {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .manu ul,
+    .login_button {
+        display: flex;
+        margin-top: 50px;
+    }
+    
+    .manu ul li {
+        list-style: none;
+        margin-right: 30px;
+    }
+    
+    .manu ul li a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    .login_button li {
+        list-style: none;
+    }
+    
+    .login_button a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 10px;
+        background-color: #E02C6D;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    /* header  */
+    
+    .header_pre {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 90px;
+    }
+    
+    .heder_text {
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: #FFFFFF;
+    }
+    
+    .heder_button {
+        font-size: 16px;
+        padding: 10px 30px;
+        background-color: #E02C6D;
+        border: none;
+        color: #ffffff;
+    }
+    
+    .header_right img {
+        width: 556px;
+        margin-top: 50px;
+    }
+    /* --------------------
+    end nev or header  
+    ------------------------*/
+    /*------------------------ 
+    players section
+    ----------------------- */
+    
+    .players {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .player {
+        width: 1050px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .player_1 {
+        width: 300px;
+        padding: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        margin-bottom: 30px;
+    }
+    
+    .player_img img {
+        width: 300px;
+    }
+    
+    .player_name {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    /* footer_up_content */
+    
+    .section_main_footerup {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .footer_up {
+        margin-top: 100px;
+    }
+    
+    .footer_up_content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer_up_left {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    
+    .f_up_title {
+        font-size: 30px;
+    }
+    
+    .up_description {
+        width: 400px;
+    }
+    
+    .doen_foot {
+        margin-top: 20px;
+    }
+    
+    .footer_match_img img {
+        width: 567px;
+    }
+    /* footer section */
+    
+    .footer_ma {
+        width: 500px;
+    }
+    
+    .footer_section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer_img img {
+        width: 400px;
+    }
+    
+    .footer_icon {
+        text-align: center;
+    }
+    
+    .copy_righ {
+        margin-top: 10px;
+        text-align: center;
+    }
+    /*------------------------
+         End
+---------------------------- */
